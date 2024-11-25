@@ -19,3 +19,5 @@ class XConfig:
         self.consumer_api_key_secret = get_env_var("X_CONSUMER_API_KEY_SECRET")
         self.access_token_pyn = get_env_var("X_ACCESS_TOKEN_PYN")
         self.access_token_secret_pyn = get_env_var("X_ACCESS_TOKEN_SECRET_PYN")
+        self.client_id = get_env_var("X_CLIENT_ID")
+        self.client_secret = get_env_var("X_CLIENT_SECRET")
